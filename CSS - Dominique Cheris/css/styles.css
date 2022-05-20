@@ -1,5 +1,5 @@
 div {
-  background-color: #DCEEF2;
+  background-color: white;
 }
 
 body {
@@ -32,8 +32,20 @@ a {
   color: #11999E;
 }
 
+hr {
+  border-style:none;
+  border-top-style:dotted;
+  border-color: #EAF6F6;
+  border-width: 10px;
+  width: 5%;
+}
+
+.about-me {
+  color: #40514E;
+}
+
 .top-container {
-  background-color: #DCEEF2;
+  background-color: #EAF6F6;
   position: relative;
   padding-top: 100px;
 }
@@ -43,6 +55,8 @@ a {
 }
 
 .bottom-container {
+  background-color: #66BFBF;
+  background-size: auto;
 
 }
 
@@ -51,6 +65,7 @@ a {
   margin: 100px auto 100px auto;
   text-align: left;
   line-height: 2;
+  overflow:auto;
 }
 
 .pro {
@@ -69,10 +84,45 @@ a {
   bottom: 300px;
 }
 
-.customer-support {
+.empathy {
   width: 25%;
+  float: left;
+  margin-right: 30px;
 }
 
 .project-management {
   width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.copyright {
+  color: #EAF6F6;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #EAF6F6;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
 }
