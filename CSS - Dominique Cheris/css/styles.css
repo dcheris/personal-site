@@ -3,6 +3,7 @@ div {
 }
 
 body {
+  color: #40514E;
   margin: 0;
   text-align: center;
   font-family: 'Arvo', serif;
@@ -13,7 +14,6 @@ h1 {
   color: #66BFBF;
   margin-top: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
-  line-height: 2;
 }
 
 h2 {
@@ -21,6 +21,7 @@ h2 {
   font-size: 2.5rem;
   font-weight: normal;
   color: #66BFBF;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -30,18 +31,24 @@ h3 {
 
 a {
   color: #11999E;
+  font-family: 'Roboto', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+p {
+  line-height: 2;
 }
 
 hr {
-  border-style:none;
-  border-top-style:dotted;
-  border-color: #EAF6F6;
-  border-width: 10px;
-  width: 5%;
-}
-
-.about-me {
-  color: #40514E;
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
 }
 
 .top-container {
@@ -51,13 +58,13 @@ hr {
 }
 
 .middle-container {
-
+  margin: 100px 0;
 }
 
 .bottom-container {
   background-color: #66BFBF;
   background-size: auto;
-
+  padding: 50px 0 20px;
 }
 
 .skill-row {
@@ -65,11 +72,16 @@ hr {
   margin: 100px auto 100px auto;
   text-align: left;
   line-height: 2;
-  overflow:auto;
+  overflow: auto;
 }
 
 .pro {
   text-decoration: underline;
+}
+
+.about-me {
+  width: 30%;
+  margin: auto;
 }
 
 .top-cloud {
@@ -80,7 +92,7 @@ hr {
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
 }
 
@@ -96,8 +108,15 @@ hr {
   margin-left: 30px;
 }
 
+.contact-me-message {
+  width: 40%;
+  margin: auto auto 40px;
+}
+
 .copyright {
   color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
 
 .btn {
@@ -110,7 +129,7 @@ hr {
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family: Arial;
+  font-family: 'Roboto', sans-serif;
   color: #EAF6F6;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
